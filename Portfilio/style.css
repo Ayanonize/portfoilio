@@ -5,3 +5,8 @@
 .bg-light-dark {
     background-color: #262626;
 }
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
