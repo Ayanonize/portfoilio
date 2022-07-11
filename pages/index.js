@@ -20,10 +20,12 @@ export default function Home() {
             </nav>
           </div>
         </header>
-        <div className="h-screen bg-[rgba(65,47,144,.80)] flex justify-center items-center">
-          <div className="flex items-center">
-            <div class="rounded-full border-8 border-[rgba(65,47,144,.80)] shadow-xl" >
-              <img src="https://pbs.twimg.com/profile_images/1481905318942867457/J0ylsqPq_400x400.jpg" class="h-48 rounded-full sm:h-56" alt="author" />
+        <div className="md:h-screen bg-[rgba(65,47,144,.80)] flex justify-center items-center md:p-0 p-24">
+          <div className="md:flex items-center">
+            <div className="flex item-center">
+              <div class="rounded-full border-8 border-[rgba(65,47,144,.80)] shadow-xl mx-auto" >
+                <img src="https://pbs.twimg.com/profile_images/1481905318942867457/J0ylsqPq_400x400.jpg" class="h-48 rounded-full sm:h-56 " alt="author" />
+              </div>
             </div>
             <div>
               <div class="pt-8 sm:pt-10 lg:pl-8 lg:pt-0" >
@@ -44,9 +46,9 @@ export default function Home() {
       </div>
 
       <section className="mt-15">
-        <div className="p-24 bg-gray-200" >
-          <div className="flex">
-            <div className="w-[60%]">
+        <div className="md:p-24 p-10 bg-gray-200" >
+          <div className="md:flex">
+            <div className="md:w-[60%]">
               <p className='text-7xl font-header font bold text-[rgba(65,47,144,.93)] uppercase'>who am i?</p>
               <p className='pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl'>I'm Ayan Khan A Full Stack Developer</p>
               <p class="pt-6 font-body leading-relaxed text-gray-500">
@@ -59,8 +61,8 @@ export default function Home() {
                 mollit anim id est laborum.
               </p>
             </div>
-            <div className='w-[40%]'>
-              <div class="p-10">
+            <div className='md:w-[40%]'>
+              <div class="md:p-10">
                 <div>
 
                   <div class="my-5">
@@ -122,7 +124,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="p-24 bg-white" >
+        <div className="md:p-24 p-10 bg-white" >
           <h1 className="text-center font-header text-4xl font-semibold uppercase text-[rgba(65,47,144,.93)] sm:text-5xl lg:text-6xl">HERE'S WHAT I'M GOOD AT
           </h1>
           <h3 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
@@ -284,10 +286,78 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                  <div class="flex relative">
+                    <img alt="gallery" class="absolute inset-0 w-full h-full object-contain object-center p-5" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" />
+
+                    <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-80 duration-700">
+                      <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Alper Kamu</h1>
+                      <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </section>
         </div>
+
+
+        <div className="p-24 bg-gray-200" >
+          <div>
+            <p className='text-center font-header text-4xl font-semibold uppercase text-[rgba(65,47,144,.93)] sm:text-5xl lg:text-6xl'>MY LATEST CLIENTS</p>
+            <div class="flex flex-wrap items-center justify-center pt-4 sm:pt-4">
+              <span class="m-8 block">
+                <img src="https://atom.redpixelthemes.com/assets/img/logo-coca-cola.svg" alt="client logo" class="mx-auto block h-12 w-auto" />
+              </span>
+              <span class="m-8 block">
+                <img src="https://atom.redpixelthemes.com/assets/img/logo-apple.svg" alt="client logo" class="mx-auto block h-12 w-auto" />
+              </span>
+
+              <span class="m-8 block">
+                <img src="https://atom.redpixelthemes.com/assets/img/logo-netflix.svg" alt="client logo" class="mx-auto block h-12 w-auto" />
+              </span>
+
+              <span class="m-8 block">
+                <img src="https://atom.redpixelthemes.com/assets/img/logo-amazon.svg" alt="client logo" class="mx-auto block h-12 w-auto" />
+              </span>
+
+              <span class="m-8 block">
+                <img src="https://atom.redpixelthemes.com/assets/img/logo-stripe.svg" alt="client logo" class="mx-auto block h-12 w-auto" />
+              </span>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="container py-16 md:py-20" id="contact">
+          <h2 class="text-center font-header text-4xl font-semibold uppercase text-[rgba(65,47,144,.93)] sm:text-5xl lg:text-6xl">
+            Here's a contact form
+          </h2>
+          <h4 class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
+            Have Any Questions?
+          </h4>
+          <div class="mx-auto w-full pt-5 text-center sm:w-2/3 lg:pt-6">
+            <p class="font-body text-grey-10">
+              Lorem ipsum dolor sit amet consectetur adipiscing elit hendrerit
+              condimentum turpis nisl sem, viverra habitasse urna ante lobortis
+              fermentum accumsan. Viverra habitasse urna ante lobortis fermentum
+              accumsan.
+            </p>
+          </div>
+          <form class="mx-auto w-full pt-10 sm:w-3/4">
+            <div class="flex flex-col md:flex-row">
+              <input class="mr-3 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:w-1/2 lg:mr-5" placeholder="Name" type="text" id="name" />
+              <input class="mt-6 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:mt-0 md:ml-3 md:w-1/2 lg:ml-5" placeholder="Email" type="text" id="email" />
+            </div>
+            <textarea class="mt-6 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:mt-8" placeholder="Message" id="message" cols="30" rows="10"></textarea>
+            <button class="mt-6 flex items-center justify-center rounded bg-[rgba(65,47,144,.93)] px-8 py-3 font-header text-lg font-bold uppercase text-white hover:bg-grey-200">
+              Send
+            </button>
+          </form>
+
+        </div>
+
 
       </section>
 
