@@ -125,7 +125,7 @@ export default function Home() {
         </div>
 
         <div className="md:p-24 p-10 bg-white" >
-          <h1 className="text-center font-header text-4xl font-semibold uppercase text-[rgba(65,47,144,.93)] sm:text-5xl lg:text-6xl">HERE'S WHAT I'M GOOD AT
+          <h1 className="text-center font-header text-4xl font-semibold uppercase text-[rgba(65,47,144,.93)] sm:text-5xl lg:text-6xl">HERE(&apos;)S WHAT I(&apos;)M GOOD AT
           </h1>
           <h3 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
             These are the services Ioffer
@@ -332,7 +332,7 @@ export default function Home() {
 
         <div className="container py-16 md:py-20" id="contact">
           <h2 className="text-center font-header text-4xl font-semibold uppercase text-[rgba(65,47,144,.93)] sm:text-5xl lg:text-6xl">
-            Here's a contact form
+            Here(&apos;)s a contact form
           </h2>
           <h4 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
             Have Any Questions?
