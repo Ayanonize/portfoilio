@@ -30,11 +30,11 @@ export default function Home() {
             <div>
               <div className="pt-8 sm:pt-10 lg:pl-8 lg:pt-0" >
                 <h1 className="text-center font-header text-4xl text-white sm:text-left sm:text-5xl md:text-6xl " >
-                  Hello I(&apos;)m Ayan Khan!
+                  Hello I&apos;m Ayan Khan!
                 </h1>
                 <div className="flex flex-col justify-center pt-3 sm:flex-row sm:pt-5 lg:justify-start" >
                   <div className="flex items-center justify-center pl-0 sm:justify-start md:pl-1" >
-                    <p className="font-body text-lg uppercase text-white" >Let(&apos;)s connect</p>
+                    <p className="font-body text-lg uppercase text-white" >Let&apos;s connect</p>
 
                   </div>
 
@@ -50,7 +50,7 @@ export default function Home() {
           <div className="md:flex">
             <div className="md:w-[60%]">
               <p className='text-7xl font-header font bold text-[rgba(65,47,144,.93)] uppercase'>who am i?</p>
-              <p className='pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl'>I(&apos;)m Ayan Khan A Full Stack Developer</p>
+              <p className='pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl'>I&apos;m Ayan Khan A Full Stack Developer</p>
               <p className="pt-6 font-body leading-relaxed text-gray-500">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -125,7 +125,7 @@ export default function Home() {
         </div>
 
         <div className="md:p-24 p-10 bg-white" >
-          <h1 className="text-center font-header text-4xl font-semibold uppercase text-[rgba(65,47,144,.93)] sm:text-5xl lg:text-6xl">HERE(&apos;)S WHAT I(&apos;)M GOOD AT
+          <h1 className="text-center font-header text-4xl font-semibold uppercase text-[rgba(65,47,144,.93)] sm:text-5xl lg:text-6xl">HERE&apos;S WHAT I&apos;M GOOD AT
           </h1>
           <h3 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
             These are the services Ioffer
@@ -332,7 +332,7 @@ export default function Home() {
 
         <div className="container py-16 md:py-20" id="contact">
           <h2 className="text-center font-header text-4xl font-semibold uppercase text-[rgba(65,47,144,.93)] sm:text-5xl lg:text-6xl">
-            Here(&apos;)s a contact form
+            Here&apos;s a contact form
           </h2>
           <h4 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
             Have Any Questions?
