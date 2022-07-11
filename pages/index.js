@@ -50,7 +50,7 @@ export default function Home() {
           <div className="md:flex">
             <div className="md:w-[60%]">
               <p className='text-7xl font-header font bold text-[rgba(65,47,144,.93)] uppercase'>who am i?</p>
-              <p className='pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl'>I'm Ayan Khan A Full Stack Developer</p>
+              <p className='pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl'>I&apos;m Ayan Khan A Full Stack Developer</p>
               <p className="pt-6 font-body leading-relaxed text-gray-500">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
