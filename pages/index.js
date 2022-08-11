@@ -168,7 +168,7 @@ export default function Home() {
                 </div>
                 <div className="lg:w-1/3 sm:w-1/2 p-4">
                   <div className="flex relative">
-                    <img alt="gallery" className="absolute inset-0 w-full h-full object-contain object-center p-5" src="https://w7.pngwing.com/pngs/363/962/png-transparent-react-native-hd-logo-thumbnail.png" />
+                    <img alt="gallery" className="absolute inset-0 w-full h-full object-contain object-center p-5" src="https://www.onu.ro/wp/wp-content/uploads/2020/03/react-native-logo-884x1024.png" />
 
                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-80 duration-700">
                       <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
@@ -211,7 +211,7 @@ export default function Home() {
                 </div>
                 <div className="lg:w-1/3 sm:w-1/2 p-4">
                   <div className="flex relative">
-                    <img alt="gallery" className="absolute inset-0 w-full h-full object-contain object-center p-5" src="https://expressjs.com/images/express-facebook-share.png" />
+                    <img alt="gallery" className="absolute inset-0 w-full h-full object-contain object-center p-5" src="https://camo.githubusercontent.com/fc61dcbdb7a6e49d3adecc12194b24ab20dfa25b/68747470733a2f2f692e636c6f756475702e636f6d2f7a6659366c4c376546612d3330303078333030302e706e67" />
 
                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-80 duration-700">
                       <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
@@ -330,7 +330,8 @@ export default function Home() {
         </div>
 
 
-        <div className="container py-16 md:py-20" id="contact">
+        <div className="container py-16 md:py-20 mx-auto
+        " id="contact">
           <h2 className="text-center font-header text-4xl font-semibold uppercase text-[rgba(65,47,144,.93)] sm:text-5xl lg:text-6xl">
             Here&apos;s a contact form
           </h2>
@@ -347,11 +348,11 @@ export default function Home() {
           </div>
           <form className="mx-auto w-full pt-10 sm:w-3/4">
             <div className="flex flex-col md:flex-row">
-              <input className="mr-3 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:w-1/2 lg:mr-5" placeholder="Name" type="text" id="name" />
-              <input className="mt-6 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:mt-0 md:ml-3 md:w-1/2 lg:ml-5" placeholder="Email" type="text" id="email" />
+              <input className="mr-3 w-full rounded-md border-grey-50 px-4 py-3 font-body text-black md:w-1/2 lg:mr-5 border-2" placeholder="Name" type="text" id="name" />
+              <input className="mt-6 w-full rounded-md border-grey-50 px-4 py-3 font-body text-black md:mt-0 md:ml-3 md:w-1/2 lg:ml-5 border-2" placeholder="Email" type="text" id="email" />
             </div>
-            <textarea className="mt-6 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:mt-8" placeholder="Message" id="message" cols="30" rows="10"></textarea>
-            <button className="mt-6 flex items-center justify-center rounded bg-[rgba(65,47,144,.93)] px-8 py-3 font-header text-lg font-bold uppercase text-white hover:bg-grey-200">
+            <textarea className="mt-6 w-full rounded-md border-grey-50 px-4 py-3 font-body text-black md:mt-8 border-2" placeholder="Message" id="message" cols="30" rows="10"></textarea>
+            <button className="mt-6 flex items-center justify-center rounded-md bg-[rgba(65,47,144,.93)] px-8 py-3 font-header text-lg font-bold uppercase text-white hover:bg-grey-200">
               Send
             </button>
           </form>
@@ -362,7 +363,7 @@ export default function Home() {
       </section>
 
       <div className="relative bg-primary bg-cover bg-center bg-no-repeat py-16 bg-blend-multiply lg:py-24" style={{ backgroundImage: "url(https://atom.redpixelthemes.com/assets/img/bg-cta.jpg)" }}>
-        <div className="container relative z-30">
+        <div className="container mx-auto relative z-30">
           <h3 className="text-center font-header text-3xl uppercase leading-tight tracking-wide text-white sm:text-4xl lg:text-5xl">
             Keep <span className="font-bold">up-to-date</span> <br />
             with what I&apos;m up to
@@ -376,7 +377,7 @@ export default function Home() {
         </div>
       </div>
       <div className="bg-[rgba(65,47,144,.93)]">
-        <div className="container flex flex-col justify-between p-6 sm:flex-row">
+        <div className="container mx-auto flex flex-col justify-between p-6 sm:flex-row">
           <p className="text-center font-body text-white md:text-left">
             © Copyright 2022. All right reserved, AYANONIZE.
           </p>
