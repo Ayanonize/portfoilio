@@ -214,7 +214,18 @@ export default function Home() {
                   </div>
                 </div>
 
+                <div className="lg:w-1/3 sm:w-1/2 p-4">
+                  <div className="flex relative">
+                    <img alt="gallery" className="absolute inset-0 w-full h-full object-contain object-center p-5" src=" https://imgs.search.brave.com/MoRoJXUuzmOOQA101VhZYxbWHOnrJSPJkxNSQ9cnO8U/rs:fit:800:600:1/g:ce/aHR0cHM6Ly93d3cu/YXBwY29kYS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMTYv/MTEvZmlyZWJhc2Vf/bG9nb19zaG90LnBu/Zw
+" />
 
+                    <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-80 duration-700">
+                      <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
+                      <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The 400 Blows</h1>
+                      <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                    </div>
+                  </div>
+                </div>
                 
                 <div className="lg:w-1/3 sm:w-1/2 p-4">
                   <div className="flex relative">
