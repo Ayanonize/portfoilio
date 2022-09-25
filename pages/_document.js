@@ -1,11 +1,12 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+import Script from 'next/script'
 
 export default function Document() {
     return (
         <Html>
             <Head>
                 <meta charset="utf-8" />
-                <meta http-equiv="x-ua-compatible" content="ie=edge" />
+                <meta httpEquiv="x-ua-compatible" content="ie=edge" />
                 <title> Ayanonize</title>
                 <meta name="description" content="" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -31,46 +32,46 @@ export default function Document() {
             <body>
                 <Main />
                 <NextScript />
-                <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+                <Script src="/assets/js/vendor/modernizr-3.5.0.min.js"></Script>
 
-                <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
-                <script src="./assets/js/popper.min.js"></script>
-                <script src="./assets/js/bootstrap.min.js"></script>
+                <Script src="/assets/js/vendor/jquery-1.12.4.min.js"></Script>
+                <Script src="/assets/js/popper.min.js"></Script>
+                <Script src="/assets/js/bootstrap.min.js"></Script>
 
-                <script src="./assets/js/jquery.slicknav.min.js"></script>
-
-
-                <script src="./assets/js/owl.carousel.min.js"></script>
-                <script src="./assets/js/slick.min.js"></script>
-
-                <script src="./assets/js/wow.min.js"></script>
-                <script src="./assets/js/animated.headline.js"></script>
-                <script src="./assets/js/jquery.magnific-popup.js"></script>
+                <Script src="/assets/js/jquery.slicknav.min.js"></Script>
 
 
-                <script src="./assets/js/gijgo.min.js"></script>
+                <Script src="/assets/js/owl.carousel.min.js"></Script>
+                <Script src="/assets/js/slick.min.js"></Script>
 
-                <script src="./assets/js/jquery.nice-select.min.js"></script>
-                <script src="./assets/js/jquery.sticky.js"></script>
-
-                <script src="./assets/js/jquery.barfiller.js"></script>
-
-
-                <script src="./assets/js/jquery.counterup.min.js"></script>
-                <script src="./assets/js/waypoints.min.js"></script>
-                <script src="./assets/js/jquery.countdown.min.js"></script>
-                <script src="./assets/js/hover-direction-snake.min.js"></script>
+                <Script src="/assets/js/wow.min.js"></Script>
+                <Script src="/assets/js/animated.headline.js"></Script>
+                <Script src="/assets/js/jquery.magnific-popup.js"></Script>
 
 
-                <script src="./assets/js/contact.js"></script>
-                <script src="./assets/js/jquery.form.js"></script>
-                <script src="./assets/js/jquery.validate.min.js"></script>
-                <script src="./assets/js/mail-script.js"></script>
-                <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+                <Script src="/assets/js/gijgo.min.js"></Script>
+
+                <Script src="/assets/js/jquery.nice-select.min.js"></Script>
+                <Script src="/assets/js/jquery.sticky.js"></Script>
+
+                <Script src="/assets/js/jquery.barfiller.js"></Script>
 
 
-                <script src="./assets/js/plugins.js"></script>
-                <script src="./assets/js/main.js"></script>
+                <Script src="/assets/js/jquery.counterup.min.js"></Script>
+                <Script src="/assets/js/waypoints.min.js"></Script>
+                <Script src="/assets/js/jquery.countdown.min.js"></Script>
+                <Script src="/assets/js/hover-direction-snake.min.js"></Script>
+
+
+                <Script src="/assets/js/contact.js"></Script>
+                <Script src="/assets/js/jquery.form.js"></Script>
+                <Script src="/assets/js/jquery.validate.min.js"></Script>
+                <Script src="/assets/js/mail-script.js"></Script>
+                <Script src="/assets/js/jquery.ajaxchimp.min.js"></Script>
+
+
+                <Script src="/assets/js/plugins.js"></Script>
+                <Script src="/assets/js/main.js"></Script>
 
 
             </body>

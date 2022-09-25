@@ -4,16 +4,16 @@ export default function Home() {
 
       <main>
 
-        <div class="slider-area">
-          <div class="single-slider slider-height d-flex align-items-center">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-xl-12 col-lg-10 col-md-10 col-sm-10">
+        <div className="slider-area">
+          <div className="single-slider slider-height d-flex align-items-center">
+            <div className="container">
+              <div className="row justify-content-center">
+                <div className="col-xl-12 col-lg-10 col-md-10 col-sm-10">
 
-                  <div class="hero__caption">
+                  <div className="hero__caption">
                     <h1 className="text-center">Ayan.</h1>
                     <p>Full Stack Web</p>
-                    <h3 class="cd-headline letters scale">Developer</h3>
+                    <h3 className="cd-headline letters scale">Developer</h3>
                   </div>
                 </div>
               </div>
@@ -22,13 +22,13 @@ export default function Home() {
         </div>
 
 
-        <section class="about-area section-padding40">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-xl-6 col-lg-6 col-md-10">
-                <div class="about-caption mb-50">
+        <section className="about-area section-padding40">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-xl-6 col-lg-6 col-md-10">
+                <div className="about-caption mb-50">
 
-                  <div class="section-tittle mb-35">
+                  <div className="section-tittle mb-35">
                     <h2>About</h2>
                   </div>
                   <p>For more than 5 years now, design has been the central piece of my world. On this fast and mind-blowing journey, I have moved over the years from being a visual designer to a full-time UX/UI thinker and designer.</p>
@@ -36,27 +36,27 @@ export default function Home() {
                   <p>At the moment, this journey has br/ought me to Cloud Academy in Mendrisio, Switzerland where I am a full-time Product Designer. In this position, as with freelance, I am working remotely and I have been for approximately two years.</p>
                 </div>
               </div>
-              <div class="col-lg-6">
-                <div class="about-img">
+              <div className="col-lg-6">
+                <div className="about-img">
                   <img src="assets/img/gallery/about1.png" alt=""/>
                 </div>
               </div>
             </div>
-            <div class="row pt-40">
-              <div class="col-lg-3 col-md-4 col-sm-6">
-                <div class="experience">
+            <div className="row pt-40">
+              <div className="col-lg-3 col-md-4 col-sm-6">
+                <div className="experience">
                   <span>06 years</span>
                   <p>of experience</p>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-4 col-sm-6">
-                <div class="experience">
+              <div className="col-lg-3 col-md-4 col-sm-6">
+                <div className="experience">
                   <span>$40M+</span>
                   <p>invested in projects I was<br/> involved in</p>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-4 col-sm-6">
-                <div class="experience">
+              <div className="col-lg-3 col-md-4 col-sm-6">
+                <div className="experience">
                   <span>Multiple</span>
                   <p>industry awards</p>
                 </div>
@@ -66,71 +66,71 @@ export default function Home() {
         </section>
 
 
-        <div class="may-about section-padding40">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="section-tittle2 mb-30">
+        <div className="may-about section-padding40">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="section-tittle2 mb-30">
                   <h2>Experience</h2>
                 </div>
               </div>
-              <div class="col-xl-12">
-                <div class="single-about">
-                  <div class="tittle-experience">
+              <div className="col-xl-12">
+                <div className="single-about">
+                  <div className="tittle-experience">
                     <h3>User Experience Designer</h3>
                     <p>Jan 18 - Feb 20</p>
                   </div>
-                  <div class="experience-link">
-                    <a href="#">Yeadi Tech, NY <i class="fas fa-external-link-alt"></i></a>
+                  <div className="experience-link">
+                    <a href="#">Yeadi Tech, NY <i className="fas fa-external-link-alt"></i></a>
                   </div>
                 </div>
               </div>
-              <div class="col-xl-12">
-                <div class="single-about">
-                  <div class="tittle-experience">
+              <div className="col-xl-12">
+                <div className="single-about">
+                  <div className="tittle-experience">
                     <h3>Web Designer</h3>
                     <p>Jan 18 - Feb 20</p>
                   </div>
-                  <div class="experience-link">
-                    <a href="#">Yeadi Tech, NY <i class="fas fa-external-link-alt"></i></a>
+                  <div className="experience-link">
+                    <a href="#">Yeadi Tech, NY <i className="fas fa-external-link-alt"></i></a>
                   </div>
                 </div>
               </div>
-              <div class="col-xl-12">
-                <div class="single-about">
-                  <div class="tittle-experience">
+              <div className="col-xl-12">
+                <div className="single-about">
+                  <div className="tittle-experience">
                     <h3>UI Designer</h3>
                     <p>Jan 18 - Feb 20</p>
                   </div>
-                  <div class="experience-link">
-                    <a href="#">Yeadi Tech, NY <i class="fas fa-external-link-alt"></i></a>
+                  <div className="experience-link">
+                    <a href="#">Yeadi Tech, NY <i className="fas fa-external-link-alt"></i></a>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-12">
-                <div class="section-tittle2 mb-30 pt-50">
+              <div className="col-lg-12">
+                <div className="section-tittle2 mb-30 pt-50">
                   <h2>Education</h2>
                 </div>
               </div>
-              <div class="col-xl-12">
-                <div class="single-about">
-                  <div class="tittle-experience">
+              <div className="col-xl-12">
+                <div className="single-about">
+                  <div className="tittle-experience">
                     <h3>Interaction Design</h3>
                     <p>Jan 18 - Feb 20</p>
                   </div>
-                  <div class="experience-link">
-                    <a href="#">Yeadi Tech, NY <i class="fas fa-external-link-alt"></i></a>
+                  <div className="experience-link">
+                    <a href="#">Yeadi Tech, NY <i className="fas fa-external-link-alt"></i></a>
                   </div>
                 </div>
               </div>
-              <div class="col-xl-12">
-                <div class="single-about">
-                  <div class="tittle-experience">
+              <div className="col-xl-12">
+                <div className="single-about">
+                  <div className="tittle-experience">
                     <h3>Human centered design</h3>
                     <p>Jan 18 - Feb 20</p>
                   </div>
-                  <div class="experience-link">
-                    <a href="#">Yeadi Tech, NY <i class="fas fa-external-link-alt"></i></a>
+                  <div className="experience-link">
+                    <a href="#">Yeadi Tech, NY <i className="fas fa-external-link-alt"></i></a>
                   </div>
                 </div>
               </div>
@@ -139,35 +139,35 @@ export default function Home() {
         </div>
 
 
-        <div class="our-services pt-top section-bg1">
-          <div class="container">
-            <div class="rwo">
-              <div class="col-xl-12">
-                <div class="section-tittle mb-75 text-center">
+        <div className="our-services pt-top section-bg1">
+          <div className="container">
+            <div className="rwo">
+              <div className="col-xl-12">
+                <div className="section-tittle mb-75 text-center">
                   <h2>My Expertise</h2>
                 </div>
               </div>
             </div>
-            <div class="row d-flex justify-contnet-center">
-              <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="single-services mb-30">
-                  <div class="services-cap">
+            <div className="row d-flex justify-contnet-center">
+              <div className="col-lg-4 col-md-4 col-sm-6">
+                <div className="single-services mb-30">
+                  <div className="services-cap">
                     <h5>Experience<br/> Design</h5>
                     <p>Switzerland where I am a full time Product Designer.</p>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="single-services mb-30">
-                  <div class="services-cap">
+              <div className="col-lg-4 col-md-4 col-sm-6">
+                <div className="single-services mb-30">
+                  <div className="services-cap">
                     <h5>Interaction<br/> Design</h5>
                     <p>Switzerland where I am a full time Product Designer.</p>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="single-services mb-30">
-                  <div class="services-cap">
+              <div className="col-lg-4 col-md-4 col-sm-6">
+                <div className="single-services mb-30">
+                  <div className="services-cap">
                     <h5>Front-end<br/> Design</h5>
                     <p>Switzerland where I am a full time Product Designer.</p>
                   </div>
@@ -178,52 +178,52 @@ export default function Home() {
         </div>
 
 
-        <div class="gallery-area section-padding40">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="section-tittle mb-60">
+        <div className="gallery-area section-padding40">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="section-tittle mb-60">
                   <h2>Selected Portfolios</h2>
                 </div>
               </div>
             </div>
-            <div class="row justify-content-between">
-              <div class="offset-xl-1 col-xl-5 col-lg-6 col-md-6 col-sm-6">
-                <div class="box snake mb-30">
-                  <div class="gallery-img small-img " style={{backgroundImage: "url(assets/img/gallery/gallery1.png)"}}></div>
-                  <div class="overlay">
-                    <div class="overlay-content">
-                      <a href="assets/img/gallery/gallery1.png" class="img-pop-up"><i class="ti-plus"></i></a>
+            <div className="row justify-content-between">
+              <div className="offset-xl-1 col-xl-5 col-lg-6 col-md-6 col-sm-6">
+                <div className="box snake mb-30">
+                  <div className="gallery-img small-img " style={{backgroundImage: "url(assets/img/gallery/gallery1.png)"}}></div>
+                  <div className="overlay">
+                    <div className="overlay-content">
+                      <a href="assets/img/gallery/gallery1.png" className="img-pop-up"><i className="ti-plus"></i></a>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-xl-5 ol-lg-6 col-lg-6 col-md-6 col-sm-6">
-                <div class="box snake mb-30">
-                  <div class="gallery-img small-img " style={{backgroundImage: "url(assets/img/gallery/gallery2.png)"}}></div>
-                  <div class="overlay">
-                    <div class="overlay-content">
-                      <a href="assets/img/gallery/gallery2.png" class="img-pop-up"><i class="ti-plus"></i></a>
+              <div className="col-xl-5 ol-lg-6 col-lg-6 col-md-6 col-sm-6">
+                <div className="box snake mb-30">
+                  <div className="gallery-img small-img " style={{backgroundImage: "url(assets/img/gallery/gallery2.png)"}}></div>
+                  <div className="overlay">
+                    <div className="overlay-content">
+                      <a href="assets/img/gallery/gallery2.png" className="img-pop-up"><i className="ti-plus"></i></a>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="offset-xl-1 col-xl-5 col-lg-6 col-md-6 col-sm-6">
-                <div class="box snake mb-30">
-                  <div class="gallery-img small-img " style={{backgroundImage: "url(assets/img/gallery/gallery3.png)"}}></div>
-                  <div class="overlay">
-                    <div class="overlay-content">
-                      <a href="assets/img/gallery/gallery2.png" class="img-pop-up"><i class="ti-plus"></i></a>
+              <div className="offset-xl-1 col-xl-5 col-lg-6 col-md-6 col-sm-6">
+                <div className="box snake mb-30">
+                  <div className="gallery-img small-img " style={{backgroundImage: "url(assets/img/gallery/gallery3.png)"}}></div>
+                  <div className="overlay">
+                    <div className="overlay-content">
+                      <a href="assets/img/gallery/gallery2.png" className="img-pop-up"><i className="ti-plus"></i></a>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-xl-5 col-lg-6 col-md-6 col-sm-6">
-                <div class="box snake mb-30">
-                  <div class="gallery-img small-img " style={{backgroundImage: "url(assets/img/gallery/gallery4.png)"}}></div>
-                  <div class="overlay">
-                    <div class="overlay-content">
-                      <a href="assets/img/gallery/gallery3.png" class="img-pop-up"><i class="ti-plus"></i></a>
+              <div className="col-xl-5 col-lg-6 col-md-6 col-sm-6">
+                <div className="box snake mb-30">
+                  <div className="gallery-img small-img " style={{backgroundImage: "url(assets/img/gallery/gallery4.png)"}}></div>
+                  <div className="overlay">
+                    <div className="overlay-content">
+                      <a href="assets/img/gallery/gallery3.png" className="img-pop-up"><i className="ti-plus"></i></a>
                     </div>
                   </div>
                 </div>

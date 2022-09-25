@@ -62,8 +62,8 @@
         dots: false,
         fade: true,
         arrows: false, 
-        prevArrow: '<button type="button" class="slick-prev"><i class="ti-angle-left"></i></button>',
-        nextArrow: '<button type="button" class="slick-next"><i class="ti-angle-right"></i></button>',
+        prevArrow: '<button type="button" className="slick-prev"><i className="ti-angle-left"></i></button>',
+        nextArrow: '<button type="button" className="slick-next"><i className="ti-angle-right"></i></button>',
         responsive: [{
             breakpoint: 1024,
             settings: {
@@ -122,8 +122,8 @@
       autoplay:true,
       loop:true,
       arrows: false,
-      prevArrow: '<button type="button" class="slick-prev"><i class="ti-angle-left"></i></button>',
-      nextArrow: '<button type="button" class="slick-next"><i class="ti-angle-right"></i></button>',
+      prevArrow: '<button type="button" className="slick-prev"><i className="ti-angle-left"></i></button>',
+      nextArrow: '<button type="button" className="slick-next"><i className="ti-angle-right"></i></button>',
       slidesToShow: 1,
       slidesToScroll: 1,
       responsive: [
