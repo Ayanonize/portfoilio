@@ -16,17 +16,17 @@ export default function Header() {
                             <div className="main-menu f-right d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li className="active"><Link href="index.html">Home</Link></li>
-                                        <li><Link href="about.html">About</Link></li>
-                                        <li><Link href="protfolio.html">Protfolio</Link></li>
-                                        <li><Link href="blog.html">Blog</Link>
+                                        <li><Link href="#main">Home</Link></li>
+                                        <li><Link href="#about">About</Link></li>
+                                        <li><Link href="#protfolio">Protfolio</Link></li>
+                                        <li><Link href="#blog">Blog</Link>
                                             <ul className="submenu">
                                                 <li><Link href="blog.html">Blog</Link></li>
                                                 <li><Link href="blog_details.html">Blog Details</Link></li>
                                                 <li><Link href="elements.html">Elements</Link></li>
                                             </ul>
                                         </li>
-                                        <li><Link href="contact.html">Contact</Link></li>
+                                        <li><Link href="#contact">Contact</Link></li>
                                     </ul>
                                 </nav>
                             </div>
