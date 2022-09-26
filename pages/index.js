@@ -98,7 +98,7 @@ export default function Home() {
                     <p>Sep 25 2022</p>
                   </div>
                   <div className="experience-link">
-                    <a href="https://www.lynkuid.com" target={'_blank'}><span>Yeadi Tech, NY <i className="fas fa-external-link-alt"></i></span></a>
+                    <a href="https://www.lynkuid.com"  rel="noreferrer" target={'_blank'}><span>Yeadi Tech, NY <i className="fas fa-external-link-alt"></i></span></a>
                   </div>
                 </div>
               </div>
@@ -183,7 +183,7 @@ export default function Home() {
             </div>
             <div className="row d-flex justify-contnet-center">
               <div className="col-lg-4 col-md-4 col-sm-6">
-                <a href="https://www.lynkuid.com" target={'_blank'}>
+                <a href="https://www.lynkuid.com"  rel="noreferrer" target={'_blank'}>
 
                   <div className=" mb-30 single-services">
                     <img src="/lynkuid.png" alt="" />
@@ -195,7 +195,7 @@ export default function Home() {
                 </a>
               </div>
               <div className="col-lg-4 col-md-4 col-sm-6">
-                <a href="https://signal-app.vercel.app" target={'_blank'}>
+                <a href="https://signal-app.vercel.app"  rel="noreferrer" target={'_blank'}>
 
                   <div className=" mb-30 single-services">
                     <img src="/signal.png" alt="" />
@@ -208,7 +208,7 @@ export default function Home() {
               </div>
 
               <div className="col-lg-4 col-md-4 col-sm-6">
-                <a href="https://www.celibgram.com" target={'_blank'}>
+                <a href="https://www.celibgram.com"  rel="noreferrer" target={'_blank'}>
                   <div className=" mb-30 single-services">
                     <img src="/posepop.png" alt="" />
                     <div className="services-cap">
@@ -221,7 +221,7 @@ export default function Home() {
 
 
               <div className="col-lg-4 col-md-4 col-sm-6">
-                <a href="https://priceless-kilby-e131e8.netlify.app" target={'_blank'}>
+                <a href="https://priceless-kilby-e131e8.netlify.app"  rel="noreferrer" target={'_blank'}>
                   <div className=" mb-30 single-services">
                     <img src="/todo.png" alt="" />
                     <div className="services-cap">
@@ -234,7 +234,7 @@ export default function Home() {
 
 
               <div className="col-lg-4 col-md-4 col-sm-6">
-                <a href="https://cocky-shaw-8a7a8b.netlify.app/" target={'_blank'}>
+                <a href="https://cocky-shaw-8a7a8b.netlify.app/"  rel="noreferrer" target={'_blank'}>
                   <div className=" mb-30 single-services">
                     <img src="/castinger.png" alt="" />
                     <div className="services-cap">
