@@ -98,37 +98,11 @@ export default function Home() {
                     <p>Sep 25 2022</p>
                   </div>
                   <div className="experience-link">
-                    <a href="https://www.lynkuid.com"  rel="noreferrer" target={'_blank'}><span>Yeadi Tech, NY <i className="fas fa-external-link-alt"></i></span></a>
+                    <a href="https://www.lynkuid.com" rel="noreferrer" target={'_blank'}><span>Yeadi Tech, NY <i className="fas fa-external-link-alt"></i></span></a>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-12">
-                <div className="section-tittle2 mb-30 pt-50">
-                  <h2>Education</h2>
-                </div>
-              </div>
-              <div className="col-xl-12">
-                <div className="single-about">
-                  <div className="tittle-experience">
-                    <h3>Interaction Design</h3>
-                    <p>Jan 18 - Feb 20</p>
-                  </div>
-                  <div className="experience-link">
-                    <a href="#">Yeadi Tech, NY <i className="fas fa-external-link-alt"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-12">
-                <div className="single-about">
-                  <div className="tittle-experience">
-                    <h3>Human centered design</h3>
-                    <p>Jan 18 - Feb 20</p>
-                  </div>
-                  <div className="experience-link">
-                    <a href="#">Yeadi Tech, NY <i className="fas fa-external-link-alt"></i></a>
-                  </div>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>
@@ -183,7 +157,7 @@ export default function Home() {
             </div>
             <div className="row d-flex justify-contnet-center">
               <div className="col-lg-4 col-md-4 col-sm-6">
-                <a href="https://www.lynkuid.com"  rel="noreferrer" target={'_blank'}>
+                <a href="https://www.lynkuid.com" rel="noreferrer" target={'_blank'}>
 
                   <div className=" mb-30 single-services">
                     <img src="/lynkuid.png" alt="" />
@@ -195,7 +169,7 @@ export default function Home() {
                 </a>
               </div>
               <div className="col-lg-4 col-md-4 col-sm-6">
-                <a href="https://signal-app.vercel.app"  rel="noreferrer" target={'_blank'}>
+                <a href="https://signal-app.vercel.app" rel="noreferrer" target={'_blank'}>
 
                   <div className=" mb-30 single-services">
                     <img src="/signal.png" alt="" />
@@ -208,7 +182,7 @@ export default function Home() {
               </div>
 
               <div className="col-lg-4 col-md-4 col-sm-6">
-                <a href="https://www.celibgram.com"  rel="noreferrer" target={'_blank'}>
+                <a href="https://www.celibgram.com" rel="noreferrer" target={'_blank'}>
                   <div className=" mb-30 single-services">
                     <img src="/posepop.png" alt="" />
                     <div className="services-cap">
@@ -221,7 +195,7 @@ export default function Home() {
 
 
               <div className="col-lg-4 col-md-4 col-sm-6">
-                <a href="https://priceless-kilby-e131e8.netlify.app"  rel="noreferrer" target={'_blank'}>
+                <a href="https://priceless-kilby-e131e8.netlify.app" rel="noreferrer" target={'_blank'}>
                   <div className=" mb-30 single-services">
                     <img src="/todo.png" alt="" />
                     <div className="services-cap">
@@ -234,13 +208,39 @@ export default function Home() {
 
 
               <div className="col-lg-4 col-md-4 col-sm-6">
-                <a href="https://cocky-shaw-8a7a8b.netlify.app/"  rel="noreferrer" target={'_blank'}>
+                <a href="https://cocky-shaw-8a7a8b.netlify.app/" rel="noreferrer" target={'_blank'}>
                   <div className=" mb-30 single-services">
                     <img src="/castinger.png" alt="" />
                     <div className="services-cap">
                       <h5>Castinger</h5>
                       <p>Personal Project</p>
                     </div>
+                  </div>
+                </a>
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+
+
+        <div className="our-services pt-top section-bg1" id="Certificates">
+          <div className="container">
+            <div className="rwo">
+              <div className="col-xl-12">
+                <div className="section-tittle mb-75 text-center">
+                  <h2>My Certificates</h2>
+                </div>
+              </div>
+            </div>
+            <div className="row d-flex justify-contnet-center">
+              <div className="col-lg-4 col-md-4 col-sm-6">
+                <a href="https://www.udemy.com/certificate/UC-d2573289-9aa4-48c7-892b-6a7a8897c1d3/" rel="noreferrer" target={'_blank'}>
+
+                  <div className=" mb-30 single-services">
+                    <img src="https://udemy-certificate.s3.amazonaws.com/image/UC-d2573289-9aa4-48c7-892b-6a7a8897c1d3.jpg" alt="" />
                   </div>
                 </a>
               </div>

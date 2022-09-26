@@ -20,6 +20,8 @@ export default function Header() {
                                         <li><Link href="#about">About</Link></li>
                                         <li><Link href="#Expertise">Expertise</Link></li>
                                         <li><Link href="#Portfolio">Portfolio</Link></li>
+                                        <li><Link href="#Certificates">Certificates</Link></li>
+
                                         <li><Link href="#blog">Blog</Link>
                                             <ul className="submenu">
                                                 <li><Link href="blog.html">Blog</Link></li>
