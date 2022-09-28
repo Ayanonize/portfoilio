@@ -1,9 +1,58 @@
+import axios from "axios";
+import { ToastContainer, toast } from 'react-toastify';
+
+import 'react-toastify/dist/ReactToastify.css';
 import Head from "next/head";
 import Link from "next/link";
-
+import { useState } from "react";
+import emailjs from "@emailjs/browser";
 export default function Home() {
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
+
+
+  const handelSubmit = (e) => {
+    e.preventDefault();
+    var templateParams = {
+      from_name: name,
+      from_email: email,
+      message: message
+    };
+    emailjs.init('bDONJ_V2iMWsX7F6e');
+
+    emailjs.send('service_v0ssk3f', 'template_zjl8knb', templateParams)
+      .then(function (response) {
+        toast('Success! We Will Reply You Soon', {
+          position: "top-left",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+        });
+        setMessage('')
+        setEmail('')
+        setName('');
+      }, function (error) {
+        console.log('FAILED...', error);
+      });
+  }
+
   return (
     <>
+      <ToastContainer
+        position="top-left"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
       <Head>
         <title> Ayanonize</title>
 
@@ -63,8 +112,8 @@ export default function Home() {
               </div>
               <div className="col-lg-3 col-md-4 col-sm-6">
                 <div className="experience">
-                  <span>Multiple</span>
-                  <p>industry awards</p>
+                  <span>Full-Stack</span>
+                  <p>Web Developer</p>
                 </div>
               </div>
             </div>
@@ -87,7 +136,7 @@ export default function Home() {
                     <p>Jan 18 2018</p>
                   </div>
                   <div className="experience-link">
-                    <a href="#">Yeadi Tech, NY <i className="fas fa-external-link-alt"></i></a>
+                    <a href="http://www.simplysocial.co.in" rel="noreferrer" target={'_blank'}><span>Simply Social<i className="fas fa-external-link-alt"></i></span></a>
                   </div>
                 </div>
               </div>
@@ -98,53 +147,15 @@ export default function Home() {
                     <p>Sep 25 2022</p>
                   </div>
                   <div className="experience-link">
-                    <a href="https://www.lynkuid.com" rel="noreferrer" target={'_blank'}><span>Yeadi Tech, NY <i className="fas fa-external-link-alt"></i></span></a>
+                    <a href="https://www.lynkuid.com" rel="noreferrer" target={'_blank'}><span>Lynkuid<i className="fas fa-external-link-alt"></i></span></a>
                   </div>
                 </div>
               </div>
-              
+
             </div>
           </div>
         </div>
 
-
-        <div className="our-services pt-top section-bg1" id="Expertise">
-          <div className="container">
-            <div className="rwo">
-              <div className="col-xl-12">
-                <div className="section-tittle mb-75 text-center">
-                  <h2>My Expertise</h2>
-                </div>
-              </div>
-            </div>
-            <div className="row d-flex justify-contnet-center">
-              <div className="col-lg-4 col-md-4 col-sm-6">
-                <div className="single-services mb-30">
-                  <div className="services-cap">
-                    <h5>Experience<br /> Design</h5>
-                    <p>Switzerland where I am a full time Product Designer.</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-4 col-sm-6">
-                <div className="single-services mb-30">
-                  <div className="services-cap">
-                    <h5>Interaction<br /> Design</h5>
-                    <p>Switzerland where I am a full time Product Designer.</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-4 col-sm-6">
-                <div className="single-services mb-30">
-                  <div className="services-cap">
-                    <h5>Front-end<br /> Design</h5>
-                    <p>Switzerland where I am a full time Product Designer.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
 
         <div className="our-services pt-top section-bg1" id="Portfolio">
           <div className="container">
@@ -260,26 +271,22 @@ export default function Home() {
                 <h2 className="contact-title">Get in Touch</h2>
               </div>
               <div className="col-lg-8">
-                <form className="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" noValidate="noValidate">
+                <form className="form-contact contact_form" id="contactForm" noValidate="noValidate" onSubmit={handelSubmit}>
                   <div className="row">
-                    <div className="col-12">
+
+                    <div className="col-sm-6">
                       <div className="form-group">
-                        <textarea className="form-control w-100" name="message" id="message" cols="30" rows="9" placeholder=" Enter Message"></textarea>
+                        <input className="form-control valid" name="name" id="name" type="text" placeholder="Enter your name" value={name} onChange={(e) => setName(e.target.value)} />
                       </div>
                     </div>
                     <div className="col-sm-6">
                       <div className="form-group">
-                        <input className="form-control valid" name="name" id="name" type="text" placeholder="Enter your name" />
-                      </div>
-                    </div>
-                    <div className="col-sm-6">
-                      <div className="form-group">
-                        <input className="form-control valid" name="email" id="email" type="email" placeholder="Email" />
+                        <input className="form-control valid" name="email" id="email" type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
                       </div>
                     </div>
                     <div className="col-12">
                       <div className="form-group">
-                        <input className="form-control" name="subject" id="subject" type="text" placeholder="Enter Subject" />
+                        <textarea className="form-control w-100" name="message" id="message" cols="30" rows="9" placeholder=" Enter Message" value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
                       </div>
                     </div>
                   </div>
@@ -292,21 +299,21 @@ export default function Home() {
                 <div className="media contact-info">
                   <span className="contact-info__icon"><i className="ti-home"></i></span>
                   <div className="media-body">
-                    <h3>Buttonwood, California.</h3>
-                    <p>Rosemead, CA 91770</p>
+                    <h3>71, Shanti Nagar, Near Joshi Marg Jhotwara, Jaipur</h3>
+                    <p>India – 302012</p>
                   </div>
                 </div>
                 <div className="media contact-info">
                   <span className="contact-info__icon"><i className="ti-tablet"></i></span>
                   <div className="media-body">
-                    <h3>+1 253 565 2365</h3>
+                    <h3>9928136009</h3>
                     <p>Mon to Fri 9am to 6pm</p>
                   </div>
                 </div>
                 <div className="media contact-info">
                   <span className="contact-info__icon"><i className="ti-email"></i></span>
                   <div className="media-body">
-                    <h3>support@colorlib.com</h3>
+                    <h3>ayanonize@gmail.com</h3>
                     <p>Send us your query anytime!</p>
                   </div>
                 </div>
