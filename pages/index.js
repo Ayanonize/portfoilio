@@ -234,7 +234,7 @@ export default function Home() {
               <div className="col-lg-4 col-md-4 col-sm-6">
                 <a href="https://neglet.vercel.app" rel="noreferrer" target={'_blank'}>
                   <div className=" mb-30 single-services">
-                    <img src="/neglet.png" alt="" />
+                    <img src="/neglet.png" alt="" className="h-[150px] mx-auto" />
                     <div className="services-cap">
                       <h5>Neglet</h5>
                       <p>Personal Project</p>
