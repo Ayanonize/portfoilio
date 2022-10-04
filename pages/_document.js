@@ -23,15 +23,6 @@ export default function Document() {
                 <link rel="stylesheet" href="assets/css/slick.css" />
                 <link rel="stylesheet" href="assets/css/nice-select.css" />
                 <link rel="stylesheet" href="assets/css/style.css" />
-                <Script id="gtm1"
-                    dangerouslySetInnerHTML={{
-                        __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-                        })(window,document,'script','dataLayer','GTM-PMQCQ9H');`,
-                    }}
-                />
             </Head>
             <body>
                 <Main />
@@ -76,13 +67,6 @@ export default function Document() {
 
                 <Script src="/assets/js/plugins.js" strategy='beforeInteractive'></Script>
                 <Script src="/assets/js/main.js" strategy='beforeInteractive'></Script>
-
-                <noscript id='gtm2'
-                    dangerouslySetInnerHTML={{
-                        __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PMQCQ9H"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-                    }}
-                />
             </body>
         </Html>
     )
