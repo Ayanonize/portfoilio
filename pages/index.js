@@ -86,14 +86,14 @@ export default function Home() {
                   <div className="section-tittle mb-35">
                     <h2>About</h2>
                   </div>
-                  <p>For more than 5 years now, design has been the central piece of my world. On this fast and mind-blowing journey, I have moved over the years from being a visual designer to a full-time UX/UI thinker and designer.</p>
+                  <p>Hi, my name is ayan khan currently a Full-Stack web developer, high school student & <span className="font-medium">Founder of Lynkuid</span>.  I have <span className="font-medium">6+ years of experience</span> in full-stack web development. Functioned with <span className="font-medium">20+ technologies</span> at the <span className="font-medium">age of 14</span>. Love making personal projects & learning new technologies.</p>
 
-                  <p>At the moment, this journey has br/ought me to Cloud Academy in Mendrisio, Switzerland where I am a full-time Product Designer. In this position, as with freelance, I am working remotely and I have been for approximately two years.</p>
+                  <p>I am currently making space in web3.0 technology learning about blockhain smart contracts & Dapps (Decentrelized applications)</p>
                 </div>
               </div>
               <div className="col-lg-6">
                 <div className="about-img">
-                  <img src="assets/img/gallery/about1.png" alt="" />
+                  <img src="/img1.png" alt="" />
                 </div>
               </div>
             </div>
@@ -129,17 +129,7 @@ export default function Home() {
                   <h2>Experience</h2>
                 </div>
               </div>
-              <div className="col-xl-12">
-                <div className="single-about">
-                  <div className="tittle-experience">
-                    <h3>As A Developer At Simply Social</h3>
-                    <p>Jan 18 2018</p>
-                  </div>
-                  <div className="experience-link">
-                    <a href="http://www.simplysocial.co.in" rel="noreferrer" target={'_blank'}><span>Simply Social<i className="fas fa-external-link-alt"></i></span></a>
-                  </div>
-                </div>
-              </div>
+
               <div className="col-xl-12">
                 <div className="single-about">
                   <div className="tittle-experience">
@@ -151,6 +141,18 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+              <div className="col-xl-12">
+                <div className="single-about">
+                  <div className="tittle-experience">
+                    <h3>As A Developer At Simply Social</h3>
+                    <p>Jan 18 2018</p>
+                  </div>
+                  <div className="experience-link">
+                    <a href="http://www.simplysocial.co.in" rel="noreferrer" target={'_blank'}><span>Simply Social<i className="fas fa-external-link-alt"></i></span></a>
+                  </div>
+                </div>
+              </div>
+              
 
             </div>
           </div>
