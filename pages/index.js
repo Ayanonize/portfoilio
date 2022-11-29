@@ -261,7 +261,10 @@ export default function Home() {
                 </div>
               </div>
             </div>
+
             <div className="row d-flex justify-contnet-center">
+
+
               <div className="col-lg-4 col-md-4 col-sm-6">
                 <a href="https://www.udemy.com/certificate/UC-d2573289-9aa4-48c7-892b-6a7a8897c1d3/" rel="noreferrer" target={'_blank'}>
 
@@ -271,7 +274,18 @@ export default function Home() {
                 </a>
               </div>
 
+              <div className="col-lg-4 col-md-4 col-sm-6">
+                <a href="https://www.udemy.com/certificate/UC-7df1c5d6-8e10-4b65-bb48-f01573a2c5b4/" rel="noreferrer" target={'_blank'}>
+
+                  <div className=" mb-30 single-services">
+                    <img src="https://udemy-certificate.s3.amazonaws.com/image/UC-7df1c5d6-8e10-4b65-bb48-f01573a2c5b4.jpg" alt="" />
+                  </div>
+                </a>
+              </div>
+
             </div>
+
+            
 
 
           </div>
